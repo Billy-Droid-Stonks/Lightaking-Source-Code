@@ -21,22 +21,6 @@ A full-stack todo list application built with React (frontend) and Node.js (back
 9. go back to the 'Code' folder than copy everything in the frontend to the same frontend you copy the package.json and if you were ask to replace the file, replace it
 10. same as the backend go back to the 'Code' folder than copy everything in the backend to the same backend you copy the package.json and if you were ask to replace the file, replace it
 
-
-This is how the folder struture look like
-Lightaking-Source-Code/
-├── frontend/          # React frontend
-│   ├── src/
-│   ├── package.json
-|   ├── public
-│   └── ...
-├── backend/           # Node.js backend
-│   ├── routes
-|   ├── models
-│   ├── package.json
-|   ├── index.js
-│   └── ...
-└── README.md
-
 ## Starting the application
 Open terminal than type 'cd Lightaking-Source-Code/Backend'
 than type node 'index.js'
