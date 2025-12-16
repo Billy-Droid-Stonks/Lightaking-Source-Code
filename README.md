@@ -1,4 +1,4 @@
-# Todo List App
+# To do List App
 
 A full-stack todo list application built with React (frontend) and Node.js (backend).
 
@@ -37,6 +37,3 @@ a browser/browser tab should open up
 - Make sure you're in the correct directory (frontend or backend) when running commands
 - Check that all environment variables are set correctly
 
-## License
-
-MIT Licens
