@@ -76,8 +76,6 @@ Lightaking-Source-Code/
 
 ## License
 
-Open Source - Feel free to use and modify!
+General Public License
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
