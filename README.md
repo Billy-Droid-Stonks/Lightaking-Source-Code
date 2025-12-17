@@ -1,6 +1,6 @@
-# To do List App
+# To Do List App
 
-A full-stack todo list application built with React (frontend) and Node.js (backend).
+A full-stack todo list application built with React (frontend) and Node.js + Express (backend).
 
 ## Prerequisites
 
@@ -11,25 +11,62 @@ A full-stack todo list application built with React (frontend) and Node.js (back
 
 1. **Clone or download this repository**
 
-1. open terminal than 'cd Lightaking-Source-Code/Frontend'
-2. Open the folder where the you clone or downloaded this repo
-3. go to 'Code' folder than open frontend folder than copy package.json from it to the Frontend folder you saw few folders ago
-4. open a new terminal there
-5. than run 'npm install'
-6. go to 'Code' folder than open backend folder than copy package.json from it to the backend folder you saw few folders ago
-8. than run 'npm install' in the same folder in the terminal
-9. go back to the 'Code' folder than copy everything in the frontend to the same frontend you copy the package.json and if you were ask to replace the file, replace it
-10. same as the backend go back to the 'Code' folder than copy everything in the backend to the same backend you copy the package.json and if you were ask to replace the file, replace it
+2. **Setup Frontend:**
+   - Navigate to `Code/frontend/` folder
+   - **Copy the `package.json` file** to the `Frontend/` folder (one level up)
+   - Open terminal in the `Frontend/` folder
+   - Run `npm install`
+   - **Copy ALL files and folders** from `Code/frontend/` to `Frontend/` folder
+   - Replace files if asked
 
-## Starting the application
-Open terminal than type 'cd Lightaking-Source-Code/Backend'
-than type node 'index.js'
-if you wait a few seconds a text that say 'DataBase connected!'
-open a new terminal than type 'cd Lightaking-Source-Code/Frontend'
-and type 'npm run'
-a browser/browser tab should open up 
+3. **Setup Backend:**
+   - Navigate to `Code/backend/` folder
+   - **Copy the `package.json` file** to the `Backend/` folder (one level up)
+   - Open terminal in the `Backend/` folder
+   - Run `npm install`
+   - **Copy ALL files and folders** from `Code/backend/` to `Backend/` folder
+   - Replace files if asked
 
+**Important:** You must copy the files from the `Code` folder to the main `Frontend` and `Backend` folders for the app to work properly!
 
+## Starting the Application
+
+### 1. Start the Backend Server
+
+Open a terminal and run:
+
+```bash
+cd Lightaking-Source-Code/Backend
+node index.js
+```
+
+Wait a few seconds until you see: **"DataBase connected!"**
+
+### 2. Start the Frontend
+
+Open a **new terminal** and run:
+
+```bash
+cd Lightaking-Source-Code/Frontend
+npm run dev
+```
+
+A browser tab should automatically open with the app!
+
+## Folder Structure
+
+```
+Lightaking-Source-Code/
+├── Frontend/          # React frontend
+│   ├── src/
+│   ├── package.json
+│   └── ...
+├── Backend/           # Node.js + Express backend
+│   ├── index.js
+│   ├── package.json
+│   └── ...
+└── README.md
+```
 
 ## Troubleshooting
 
@@ -37,3 +74,10 @@ a browser/browser tab should open up
 - Make sure you're in the correct directory (frontend or backend) when running commands
 - Check that all environment variables are set correctly
 
+## License
+
+Open Source - Feel free to use and modify!
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
