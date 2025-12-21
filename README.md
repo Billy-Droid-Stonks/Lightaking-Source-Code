@@ -40,7 +40,7 @@ cd Lightaking-Source-Code/Backend
 node index.js
 ```
 
-Wait a few seconds until you see: **"DataBase connected!"**
+Wait a few seconds until you see: **"Database connected!"**
 
 ### 2. Start the Frontend
 
@@ -48,7 +48,7 @@ Open a **new terminal** and run:
 
 ```bash
 cd Lightaking-Source-Code/Frontend
-npm run dev
+npm run start
 ```
 
 A browser tab should automatically open with the app!
