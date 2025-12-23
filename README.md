@@ -67,6 +67,9 @@ Lightaking-Source-Code/
 │   └── ...
 └── README.md
 ```
+##API Key
+
+mongodb+srv://dellusevo_db_user:UJeNx7xI5U5eqhfR@non.fhffsgv.mongodb.net/?appName=Non
 
 ## Troubleshooting
 
